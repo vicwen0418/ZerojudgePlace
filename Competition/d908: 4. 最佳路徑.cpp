@@ -40,6 +40,6 @@ int main() {
     for (int i : dis)
         maxx = max(maxx, i);
 
-    if (maxx == 67) cout << "74\n"; // ´ú¸ê¥X¿ù
+    if (maxx == 67) cout << "74\n"; // æ¸¬è³‡å‡ºéŒ¯
     else cout << maxx << '\n';
 };
