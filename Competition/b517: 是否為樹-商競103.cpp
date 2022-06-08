@@ -4,8 +4,10 @@
 #include <sstream>
 #include <set>
 using namespace std;
+
 bool adj[81][81] = { false };
 bool nt[81] = { false };
+
 int to_int(char a) {
     return a - '0';
 }
